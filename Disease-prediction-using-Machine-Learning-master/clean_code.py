@@ -207,47 +207,47 @@ if __name__=='__main__':
     Name = StringVar()
 
     # Heading
-    w2 = Label(root, justify=CENTER, text="Disease Predictor using Machine Learning", fg="black", bg="gold")
+    w2 = Label(root, justify=CENTER, text="Disease Predictor using Machine Learning", fg="black", bg="skyblue")
     w2.config(font=("Elephant", 30))
     w2.grid(row=1, column=0, columnspan=2, padx=100)
-    w2 = Label(root, justify=LEFT, text="A Project by VAMA", fg="black", bg="gold")
-    w2.config(font=("Aharoni", 30))
-    w2.grid(row=2, column=0, columnspan=2, padx=100)
+#     w2 = Label(root, justify=LEFT, text="A Project by VAMA", fg="black", bg="gold")
+#     w2.config(font=("Aharoni", 30))
+#     w2.grid(row=2, column=0, columnspan=2, padx=100)
 
     # labels
-    NameLb = Label(root, text="Patient's Name", fg="black", bg="gold")
+    NameLb = Label(root, text="Patient's Name", fg="black", bg="skyblue")
     NameLb.grid(row=6, column=0, pady=15, sticky=W)
     NameLb.config(font=("Aharoni", 20))
 
-    S1Lb = Label(root, text="Symptom 1", fg="black", bg="gold")
+    S1Lb = Label(root, text="Symptom 1", fg="black", bg="skyblue")
     S1Lb.grid(row=7, column=0, pady=10, sticky=W)
     S1Lb.config(font=("Aharoni", 20))
 
-    S2Lb = Label(root, text="Symptom 2", fg="black", bg="gold")
+    S2Lb = Label(root, text="Symptom 2", fg="black", bg="skyblue")
     S2Lb.grid(row=8, column=0, pady=10, sticky=W)
     S2Lb.config(font=("Aharoni", 20))
 
-    S3Lb = Label(root, text="Symptom 3", fg="black", bg="gold")
+    S3Lb = Label(root, text="Symptom 3", fg="black", bg="skyblue")
     S3Lb.grid(row=9, column=0, pady=10, sticky=W)
     S3Lb.config(font=("Aharoni", 20))
 
-    S4Lb = Label(root, text="Symptom 4", fg="black", bg="gold")
+    S4Lb = Label(root, text="Symptom 4", fg="black", bg="skyblue")
     S4Lb.grid(row=10, column=0, pady=10, sticky=W)
     S4Lb.config(font=("Aharoni", 20))
 
-    S5Lb = Label(root, text="Symptom 5", fg="black", bg="gold")
+    S5Lb = Label(root, text="Symptom 5", fg="black", bg="skyblue")
     S5Lb.grid(row=11, column=0, pady=10, sticky=W)
     S5Lb.config(font=("Aharoni", 20))
 
-    lrLb = Label(root, text="DecisionTree", fg="black", bg="gold")
+    lrLb = Label(root, text="DecisionTree", fg="black", bg="skyblue")
     lrLb.grid(row=15, column=0, pady=10,sticky=W)
     lrLb.config(font=("Aharoni", 20))
 
-    destreeLb = Label(root, text="RandomForest", fg="black", bg="gold")
+    destreeLb = Label(root, text="RandomForest", fg="black", bg="skyblue")
     destreeLb.grid(row=17, column=0, pady=10, sticky=W)
     destreeLb.config(font=("Aharoni", 20))
 
-    ranfLb = Label(root, text="NaiveBayes", fg="black", bg="gold")
+    ranfLb = Label(root, text="NaiveBayes", fg="black", bg="skyblue")
     ranfLb.grid(row=19, column=0, pady=10, sticky=W)
     ranfLb.config(font=("Aharoni", 20))
     # entries
